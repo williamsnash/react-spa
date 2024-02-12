@@ -1,0 +1,9 @@
+.skills {
+  width: 60%;
+}
+
+.skills-stack {
+  width: calc(100% - 20px);
+  padding-left: 1em;
+  padding-right: 1em;
+}
