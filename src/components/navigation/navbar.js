@@ -13,8 +13,8 @@ import MobileNav from './mobileNav';
 export default function Navbar() {
   return (
     <>
-      <div className="desktop-nav" style={{ height: '2.5em' }}>
-        <Flex alignItems="center" justifyContent="center" padding="1">
+      <div className="hidden desktop-nav sm:block justify-between items-center h-12 bg-purple-600">
+        <Flex alignItems="center" justifyContent="center" padding="2">
           <NavButton link="" text="Home" />
           <Spacer />
           <ButtonGroup gap='0.25'>
@@ -24,7 +24,7 @@ export default function Navbar() {
           </ButtonGroup>
         </Flex>
       </div>
-      <div className="mobile-nav">
+      <div className="mobile-nav sm:hidden h-12 bg-red-500">
         <Flex alignItems="center" justifyContent="center" padding="1">
           <NavButton link="/" text="Home" />
           <Spacer />

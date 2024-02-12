@@ -9,13 +9,13 @@ export default function MobileNav() {
       <MenuButton as={IconButton} icon={<HamburgerIcon />} />
       <MenuList>
         <MenuItem>
-          <NavLink className="mobile-link" to="/about" >About</NavLink>
+          <NavLink className="mobile-link w-full" to="/about" >About</NavLink>
         </MenuItem>
         <MenuItem>
-          <NavLink className="mobile-link" to="/projects">Projects</NavLink>
+          <NavLink className="mobile-link w-full" to="/projects">Projects</NavLink>
         </MenuItem>
         <MenuItem>
-          <NavLink className="mobile-link" to="/gallery">Gallery</NavLink>
+          <NavLink className="mobile-link w-full" to="/gallery">Gallery</NavLink>
         </MenuItem>
       </MenuList>
     </Menu>
