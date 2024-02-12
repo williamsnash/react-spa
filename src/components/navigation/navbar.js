@@ -9,8 +9,10 @@ import {
 import NavButton from './navButton';
 import MobileNav from './mobileNav';
 
+/*
 
 export default function Navbar() {
+  
   return (
     <>
       <div className="hidden desktop-nav sm:block justify-between items-center h-12 bg-purple-600">

@@ -14,8 +14,8 @@
    2. Upload the `./build/static/` folder using the `Add Folder` option. This is important
 3. Done
 
-
-# Deploy to Amplify
+---
+# To Deploy Static Amplify Website
 ## Pre-requisites
 - AWS Account
 

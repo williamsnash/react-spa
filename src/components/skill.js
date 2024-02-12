@@ -4,6 +4,7 @@ import {
   Box,
   Spacer
 } from '@chakra-ui/react'
+
 export default function Skill({ skill, value, color, size, height}) {
   if (!size && !height) size = 'sm'
   return (

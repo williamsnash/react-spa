@@ -1,5 +1,9 @@
 # Learned things
 
+## Hosting a static website on AWS S3/ Amplify
+- Hosting a static website on S3 is very cheap, as you are just paying for the storage used. You do not pay for the requests made to the website.
+- Hosting a static website on Amplify is also cheap but more expensive as it handle domain, SSL, cloudfront, deployment, etc. The deployment process is easier than S3 because it is linked directly to a GitHub repository.
+
 ## npm install x --save/--save-dev
 `npm install x --save` will install the package and add it to the `dependencies` in `package.json` file. `npm install x --save-dev` will install the package and add it to the `devDependencies` in `package.json` file. Save-dev is used for the packages that are only used in development environment, like testing libraries, etc.
 
