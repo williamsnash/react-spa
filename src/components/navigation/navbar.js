@@ -9,7 +9,6 @@ import {
 import NavButton from './navButton';
 import MobileNav from './mobileNav';
 
-/*
 
 export default function Navbar() {
   
